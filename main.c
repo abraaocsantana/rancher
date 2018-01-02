@@ -157,10 +157,16 @@ int main(){
   char currentInput;
 
   do{
-    if(currentInput==3)
+    if(currentInput==3 && midCursor>0)
       --midCursor;
-    if(currentInput==2)
+    else if(currentInput==2 && midCursor<midPathNodes.pathNodeCount-1)
       ++midCursor;
+		else if(currentInput==4){
+
+		}
+		else if(currentInput==5){
+			
+		}
     draw(".");
 		refresh();
     mvprintw(maxRow-1,0,"%i",midCursor);
