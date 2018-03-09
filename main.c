@@ -5,6 +5,8 @@
 #include <libgen.h>
 #include <string.h>
 
+//Test Tool
+
 #define MAX_PATHNODES_ON_MEM_PER_AREA 100
 
 #define FIRST_COL(maxCol) 0
